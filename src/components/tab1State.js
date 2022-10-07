@@ -7,9 +7,10 @@ import ApiService from '../Apiservice';
 import NewUtil from '../service/newutil';
 import { BrowserRouter as Router,Route,Link} from 'react-router-dom';
 import { faHome, faUser } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+
   
-function CartLLL() {   
+function tab1State() {   
  // Section 2 **************** Start Declare Var  ********
 const [item2s, setItem2s] = useState([]);
 const [loading, setLoading] = useState(false);
@@ -49,4 +50,4 @@ return (
    </div>
 )
 }
-export default CartLLL
+export default tab1State
